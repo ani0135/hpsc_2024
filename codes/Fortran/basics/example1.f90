@@ -4,7 +4,7 @@
 program example1
 
     implicit none
-    real (kind=8) :: x,y,z
+    real (kind=8) :: x,y,z ! three real numbers of 8 byte each
 
     x = 4.d0
     y = 2.d-1
