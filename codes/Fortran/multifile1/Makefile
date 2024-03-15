@@ -14,4 +14,5 @@ sub1.o: sub1.f90
 sub2.o: sub2.f90
 	gfortran -c sub2.f90
 
-
+clean:
+	rm *.o *.txt *.exe
